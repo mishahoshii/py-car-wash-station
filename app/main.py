@@ -24,7 +24,7 @@ class CarWashStation:
 
         price = ((car.comfort_class
             * (self.clean_power
-              - car.clean_mark)
+            - car.clean_mark)
             * self.average_rating)
             / self.distance_from_city_center)
 
